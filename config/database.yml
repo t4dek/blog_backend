@@ -1,0 +1,29 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: unicode
+  database: blog_dev
+  pool:     5
+  username: t4dek
+  password: 
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: unicode
+  database: blog_dev
+  pool:     5
+  username: t4dek
+  password: 
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: unicode
+  database: blog_dev
+  pool:     5
+  username: t4dek
+  password: 
